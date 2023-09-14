@@ -1,0 +1,20 @@
+{
+  "name": "react-server-components",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "express": "^4.18.2",
+    "react-server-dom-webpack": "18.3.0-next-1308e49a6-20230330",
+    "webpack": "^5.88.2"
+  }
+}
