@@ -1,15 +1,19 @@
 # react-server-components
 
-To install dependencies:
+## Install dependencies
 
 ```bash
-bun install
+npm install
 ```
 
-To run:
+## Bundle React App
 
 ```bash
-bun run index.ts
+node scripts/build.js
 ```
 
-This project was created using `bun init` in bun v1.0.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Run Server
+
+```bash
+node server/server.js
+```
